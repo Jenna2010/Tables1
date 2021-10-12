@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <link rel="stylesheet"href="../css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Calendar</h1>
+            <nav>
+                <a href="../index.html">Table Basics</a>
+                <a href="Styling.html">Styling</a>
+                <a href="Calendar.html">Calendar</a>
+            </nav>
+
+            <h2>Calendar</h2>
+            <h3>September 2021</h3>
+            <style>
+                * {
+                    box-sizing: border-box;
+                }
+
+                table {
+                    width: 90%;
+                    margin: 10px auto;
+                    border-collapse: collapse;
+                    border: 3px solid black
+                }
+                th {
+                    color: white;
+                    background: purple;
+                    text-align: center;
+                    vertical-align:middle;
+                    border: 1px solid black;
+                    height:40px; 
+                }
+
+                td{
+                    height:40px;
+                    text-align: right;
+                    vertical-align: top;
+                    width: 14%;
+                    border: 1px darkred;
+                    font-weight: bold;
+                    padding: 5px;
+                }
+
+                .weekend{
+                    background: pink;
+                }
+            </style>
+        </header>
+        <table>
+            <tr>
+                <th>Sun</th>
+                <th>Mon</th>
+                <th>Tues</th>
+                <th>Wed</th>
+                <th>Thurs</th>
+                <th>Fri</th>
+                <th>Sat</th>
+            </tr>
+            <tr>
+                <td class="weekend"></td>
+                <td></td>
+                <td></td>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+                <td class="weekend">4</td>
+            </tr>
+            <tr>
+                <td class="weekend">5</td>
+                <td>6</td>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+                <td>10</td>
+                <td class="weekend">11</td>
+            </tr>
+            <tr>
+                <td class="weekend">12</td>
+                <td>13</td>
+                <td>14</td>
+                <td>15</td>
+                <td>16</td>
+                <td>17</td>
+                <td class="weekend">18</td>
+            </tr>
+            <tr>
+                <td class="weekend">19</td>
+                <td>20</td>
+                <td>21</td>
+                <td>22</td>
+                <td>23</td>
+                <td>24</td>
+                <td class="weekend">25</td>
+            </tr>
+            <tr>
+                <td class="weekend">26</td>
+                <td>27</td>
+                <td>28</td>
+                <td>29</td>
+                <td>30</td>
+                <td></td>
+                <td class="weekend"></td>
+            </tr>
+
+        </table>
+        
+        
+        <footer>
+            <p>&copy; Linda Budek</p>
+        </footer>
+
+    </div>
+       
+</body>
+</html>
